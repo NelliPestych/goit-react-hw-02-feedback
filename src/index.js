@@ -1,11 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import Feedback from "./components/Feedback";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App/App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Feedback />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.querySelector('#root'));
